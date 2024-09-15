@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 1rem;
+    font-family: sans-serif;
+}
+
+.form div {
+    display: block;
+    margin-top: 1rem;
+}
+
+.form input {
+    display: block;
+    margin-top: 0.4rem;
+    padding: 0.4rem;
+}
+
+button {
+    display: block;
+    cursor: pointer;
+    margin-top: 2rem;
+    padding: 0.4rem;
+}

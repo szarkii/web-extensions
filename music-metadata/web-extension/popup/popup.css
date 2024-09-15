@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 1rem;
+    font-family: sans-serif;
+}
+
+.form div {
+    display: block;
+    margin-top: 1rem;
+}
+
+.form input {
+    display: block;
+    margin-top: 0.4rem;
+    padding: 0.4rem;
+}
+
+button {
+    display: block;
+    cursor: pointer;
+    margin: 1rem auto 0 auto;
+    padding: 0.4rem;
+}
+
+template {
+    display: hidden;
+}
+
+.error {
+    color: red;
+}
+
+.queue {
+    margin-top: 2rem;
+}
