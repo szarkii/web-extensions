@@ -86,7 +86,7 @@ class UploadService {
     }
 
     const command = `cd "${Config.musicDirectory}"; ` +
-      `szarkii-music-metadata ${nameArgument} ${artistArgument} ${albumArgument} ${task.file.url}`;
+      `music-metadata ${nameArgument} ${artistArgument} ${albumArgument} ${task.file.url}`;
     Logger.debug(`Executing command "${command}"`);
 
     exec(command, (error, stdout, stderr) => {
