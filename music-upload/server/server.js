@@ -190,7 +190,9 @@ http.createServer(async function (request, response) {
   }
 
   /** 404 */
-  response.writeHead(404);
+  if (!response.writableEnded) {
+    response.writeHead(404);
+  }
   response.end();
 
 }).listen(Config.port, Config.hostname, () => {
