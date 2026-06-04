@@ -1,0 +1,29 @@
+html, body {
+  width: 300px;
+  font-family: sans-serif;
+}
+
+label {
+  display: block;
+}
+
+input, textarea {
+  margin: 1rem;
+}
+
+.notification-list-element {
+  cursor: pointer;
+}
+
+.notification-list-element:hover {
+  background-color: grey;
+}
+
+#delay {
+  width: 3rem;
+}
+
+#submit {
+  margin-left: 1rem;
+  cursor: pointer;
+}

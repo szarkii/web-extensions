@@ -1,0 +1,34 @@
+{
+
+  "description": "Simple timeout notifier.",
+  "manifest_version": 2,
+  "name": "Notifier",
+  "version": "1.2",
+  "icons": {
+    "64": "icons/warning-red-64.png"
+  },
+
+  "permissions": [
+    "notifications",
+    "alarms"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/warning-black-32.png",
+    "theme_icons": [{
+        "light": "icons/warning-white-32.png",
+        "dark": "icons/warning-black-32.png",
+        "size": 32
+    }],
+    "default_title": "Notifier",
+    "default_popup": "popup/main.html"
+  },
+
+  "web_accessible_resources": [],
+
+
+"background": {
+  "scripts": ["background_scripts/script.js"]
+}
+
+}
